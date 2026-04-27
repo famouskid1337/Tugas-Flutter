@@ -36,7 +36,7 @@ class _EditProfileState extends State<EditProfile> {
   void saveData() {
     if (_formKey.currentState!.validate()) {
       final updatedProfile = Profile(
-        id: widget.profile.id,
+        id37: widget.profile.id37,
         name: nameController.text,
         bio: bioController.text,
         description: descController.text,
